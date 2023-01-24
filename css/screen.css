@@ -1,0 +1,327 @@
+/* CSS Document for Screens */
+
+@import url(http://fonts.googleapis.com/css?family=Signika:400,300,600);
+
+body{
+font-family: 'Signika', sans-serif;
+font-weight:300;
+font-size:2em;
+color:#555;
+margin:0;
+padding:0;
+position:relative;
+}
+
+h1{
+margin:0 0 1em 0;
+font-size:2.8em;
+font-weight:700;
+}
+
+h2{
+margin:0 0 0.5em 0;
+font-size:1.6em;
+font-weight:700;
+line-height:1.1em;
+}
+
+h3{
+margin:0 0 0.5em 0;
+font-size:1.3em;
+font-weight:700;
+}
+
+h4{
+margin:0 0 1.5em 0;
+font-size:1.0em;
+font-weight:700;
+}
+
+p{
+margin: 0 0 1em 0;
+}
+
+a{
+color:#007eff;
+}
+
+a:visited{
+color:#65b1ff;	
+}
+/* Basic Style End */
+
+#page{
+	background-color:#f1f1f1;
+}
+
+
+/*  Category Section*/
+
+.category{
+background-color:#333;
+color:#fff;
+padding:50px;
+}
+
+.category article {
+min-height:220px;
+}
+
+
+a.btn{
+text-decoration:none;
+color:#fff;
+border:1px solid #fff;
+padding:4px 15px;
+transition:background-color .5s;
+}
+
+a.btn:hover{
+background-color:rgba(0,0,0,.3);
+color:#fff;
+}
+
+/** Navigation Bar Style **/
+
+header .navbar-default .navbar-toggle:focus, header .navbar-default .navbar-toggle:hover {
+background-color:transparent;
+}
+
+header .navbar-default .navbar-brand {
+color:#f1f1f1;
+background-color:#666;
+}
+
+header .navbar{
+border:0;
+border-radius:0;
+transition:all .5s ease-out;
+margin-bottom:0;
+}
+
+header .navbar-default{
+background-color:#333;
+}
+
+header .navbar-default .navbar-nav a{
+color:#fff;
+}
+
+.nav > li > a:focus, .nav > li > a:hover {
+background-color:transparent;
+}
+
+header .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+color:#f1f1f1;
+background-color:transparent;
+}
+
+header .navbar-default .navbar-nav a:hover, header .navbar-default .navbar-nav .active a:hover{
+color:#f1f1f1;
+background-color:transparent;
+}
+
+header .navbar-default .navbar-nav .active a{
+color:#f1f1f1;
+background-color:transparent;
+border-bottom:0px solid #f1f1f1;
+font-weight:700;
+text-shadow:none;
+}
+
+
+header .navbar-toggle{
+background-color:#333;
+}
+
+header .navbar-default .navbar-toggle .icon-bar{
+background-color:#ffffff;
+}
+
+header .navbar-default .navbar-toggle:focus, header .navbar-default .navbar-toggle:hover{
+
+}
+
+header .navbar-toggle .icon-bar:focus, header .navbar-toggle .icon-bar:hover{
+outline-color:rgba(43,104,168,1.0);
+}
+
+.worksGallery{
+background-color:#f1f1f1;
+padding-top:40px;
+}
+
+.section-title{
+padding-bottom:15px; 
+background:url(../images/divider.gif) center repeat-x; 
+font-weight:bold; 
+color:#000; }
+
+.section-title span {
+ background:#f1f1f1; 
+ margin-left:30px;
+ padding:0 15px;
+ }
+
+.worksGallery img{
+margin-bottom:30px;
+
+}
+
+/*  News Section*/
+.general{
+background-color:#d6d6d6;
+color:#e7e7e7;
+padding-top:30px;
+padding-bottom:30px;
+}
+
+.general .section-title span {
+ background:#d6d6d6; 
+ }
+
+.general .sliderText{
+color: #333333;
+height: 100%;
+padding: 0 30px 20px;
+text-align: left;
+text-shadow: none;
+}
+
+.general  h3 {
+border-bottom: 1px solid #333;
+font-size: 28px;
+margin-bottom: 15px;
+margin-top: 0;
+padding-bottom: 5px;
+}
+
+.general  p{
+color:#333;
+}
+
+.general h4{
+margin:1.0em 0;
+}
+
+.general a{
+display:inline-block;
+color:#185ea7;
+}
+
+.contact{
+background-color:#f1f1f1;
+background-image: linear-gradient(to bottom, #f1f1f1, #c2c2c2);
+color:#e7e7e7;
+padding-top:30px;
+padding-bottom:30px;
+text-align:center;
+}
+
+.contact .section-title{
+padding-bottom:30px;
+text-align:center;
+}
+
+.contact .section-title span {
+ margin-left:0px;
+ }
+
+.contact address{
+color:#333;
+}
+
+.contact .emailsubscription input[type="text"] {
+border-top:1px solid #e1e1e1; 
+border-left:1px solid #e1e1e1; 
+border-bottom:1px solid #e1e1e1; 
+padding:10px; 
+width:200px;
+-webkit-border-radius:2px 0px 0px 2px; 
+-moz-border-radius: 2px 0px 0px 2px;  
+border-radius: 2px 0px 0px 2px; }
+
+.contact .blueBtn {
+margin-left:-2px;
+background:#185ea7; 
+text-transform:uppercase;
+font-weight:bold;
+padding:10px 20px; 
+border:0px solid #fff;
+-webkit-border-radius:0px 2px 2px 0px;
+-moz-border-radius: 0px 2px 2px 0px; 
+border-radius: 0px 2px 2px 0px; }
+
+.social-links
+{
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+.social-links .fa-stack-2x
+{
+    color: #333;
+}
+.social-links .fa-stack-1x
+{
+    color: #ffffff;
+}
+
+/*  Footer Section*/
+
+.pgFooter{
+font-size:0.8em;
+padding:30px 0;
+color:#f1f1f1;
+background-color:#333;
+}
+
+}
+
+
+/*  Media Queries - Mobile Screen*/ 
+
+@media screen and (min-width:1200px){
+a.btn{
+font-size:1.2em;
+}
+}
+
+@media screen and (max-width:1000px){
+.category article h3{
+padding-top:20px;
+}
+}
+
+@media screen and (max-width:768px){
+.category {
+padding-left:0px;
+padding-right:0px;
+}
+}
+
+
+@media screen and (max-width:425px){
+ header .navbar-collapse.in {
+    background-color: rgba(0,0,0, .5);
+}
+/*.category{
+padding:20px 0 20px;
+}
+
+.category .col-lg-6{
+padding:15px;	
+}*/
+
+header .navbar-default {
+background-color:transparent;	
+}
+
+.general .sliderText{
+padding: 30px 0px;
+}
+}
+
+
+/*
+theme color 2b68a8 / rgb 43 104 168
+*/
